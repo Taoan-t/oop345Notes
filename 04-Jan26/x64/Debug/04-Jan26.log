@@ -1,0 +1,9 @@
+﻿  c-union.cpp
+C:\Users\Qian Tang\Documents\my\CPA\Courses\oop345\oop345Notes\04-Jan26\c-union.cpp(15,25): warning C4311: “<function-style-cast>”: 从“double *”到“unsigned int”的指针截断
+C:\Users\Qian Tang\Documents\my\CPA\Courses\oop345\oop345Notes\04-Jan26\c-union.cpp(15,25): warning C4302: “<function-style-cast>”: 从“double *”到“unsigned int”截断
+C:\Users\Qian Tang\Documents\my\CPA\Courses\oop345\oop345Notes\04-Jan26\c-union.cpp(16,25): warning C4311: “<function-style-cast>”: 从“char (*)[8]”到“unsigned int”的指针截断
+C:\Users\Qian Tang\Documents\my\CPA\Courses\oop345\oop345Notes\04-Jan26\c-union.cpp(16,25): warning C4302: “<function-style-cast>”: 从“char (*)[8]”到“unsigned int”截断
+  f-MoveNCopyContinued.cpp
+  正在生成代码...
+f-MoveNCopyContinued.obj : error LNK2005: main 已经在 c-union.obj 中定义
+C:\Users\Qian Tang\Documents\my\CPA\Courses\oop345\oop345Notes\04-Jan26\x64\Debug\04-Jan26.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
