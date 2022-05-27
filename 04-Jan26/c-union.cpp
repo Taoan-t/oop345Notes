@@ -1,5 +1,11 @@
 #include <iostream>
 using namespace std;
+// Union : 
+// All the members of union share same memory location. 
+// Size of union is decided by the size of largest member of union.
+
+// Purpose of union:
+// Save memory by using the same memory region for storing different objects at different times. 
 union Vars {
    double a;
    int b;
@@ -8,7 +14,7 @@ union Vars {
 
 int main() {
    Vars V;
-   cout << sizeof(Vars) << endl;
+   cout << sizeof(Vars) << endl; 
    cout << alignof(Vars) << endl;
    cout << unsigned(&V.a) << endl;
    cout << unsigned(&V.c) << endl;

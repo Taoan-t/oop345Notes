@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="c-union.cpp" />
+    <ClCompile Include="e-OOP244Name.cpp" />
+    <ClCompile Include="f-moveAssignmentAndOperator.cpp" />
     <ClCompile Include="f-MoveNCopyContinued.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

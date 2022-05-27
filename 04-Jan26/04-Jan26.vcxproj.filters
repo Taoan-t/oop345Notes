@@ -18,7 +18,10 @@
     <ClCompile Include="f-MoveNCopyContinued.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="c-union.cpp">
+    <ClCompile Include="e-OOP244Name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f-moveAssignmentAndOperator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

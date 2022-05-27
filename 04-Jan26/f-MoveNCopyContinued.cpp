@@ -87,7 +87,7 @@ public:
       }
       return *this;
    }
-   Name& operator=(Name&& N) {
+   Name& operator=(Name&& N) { // Move assignment
       if (this != &N) {
          tracer << "(Move assignment), Moving " << N.m_value << " into " << m_value << " by assignment" << nl;
          delete[] m_value;
@@ -96,7 +96,7 @@ public:
       }
       return *this;
    }
-   Name(Name&& N) {
+   Name(Name&& N) { // Move copy constructor
       tracer << "(Move constructor), Taking ownership of " << N.m_value << " in a new Name" << nl << "    ";
       operator=(move(N));
    }
