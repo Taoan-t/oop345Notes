@@ -140,6 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01-shapes.cpp" />
+    <ClCompile Include="02-shapes.cpp" />
+    <ClCompile Include="a-Template.cpp" />
+    <ClCompile Include="b-funcTemplate.cpp" />
     <ClCompile Include="f-ClassTemplate.cpp" />
     <ClCompile Include="g-Non-TypeTemplateParameters.cpp" />
     <ClCompile Include="h-DefaultTemplateParameterValues.cpp" />

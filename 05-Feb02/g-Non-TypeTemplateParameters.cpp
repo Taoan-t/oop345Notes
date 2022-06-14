@@ -1,5 +1,12 @@
 #include <iostream>
 using namespace std;
+/*
+A template parameter may be:
+   a type template parameter
+   a non-type template parameter
+   a template template parameter
+*/
+
 
 template <typename T, int Tsize>
 class Array {
